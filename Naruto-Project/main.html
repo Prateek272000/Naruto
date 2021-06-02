@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./main-style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+	<title>Naruto</title>
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="main.html"><img src="img/logo.png" alt="naruto" id="logo"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="">ABOUT</a></li>
+					<li><a href="">COURSE</a></li>
+					<li><a href="">CONTACT US</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<div class="text-box">
+			<h1>World's Best Anime</h1>
+			<p>Naruto is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village.</p>
+			<a href="">Visit Us To Know More</a>
+		</div>
+	</section>
+
+	<!-- ----Characters---- -->
+
+	<section class="Team-7">
+		<h1>Team-7</h1>
+		<p>Members of Team 7, headed by kakashi include:</p>
+		<div class="rows">
+			<div class="col">
+				<h3>Sasuke Uchiha</h3>
+				<p>Sasuke Uchiha is one of the last surviving members of Konohagakure's Uchiha clan. After his older brother, Itachi, slaughtered their clan, Sasuke made it his mission in life to avenge them by killing Itachi. He is added to Team 7 upon becoming a ninja and, through competition with his rival and best friend, Naruto Uzumaki, Sasuke starts developing his skills..</p>
+			</div>
+			<div class="col">
+				<h3>Naruto Uzumaki</h3>
+				<p>Naruto Uzumaki is a young ninja from the fictional village of Konohagakure (Hidden Leaf Village). The villagers ridicule and ostracize Naruto on account of the Nine-Tailed Demon Fox—a malevolent creature that attacked Konohagakure—that was sealed away in Naruto's body.</p>
+			</div>
+			<div class="col">
+				<h3>Sakura Haruno</h3>
+				<p>Sakura Haruno is a kunoichi of Konohagakure. When assigned to Team 7, Sakura quickly finds herself ill-prepared for the duties of a shinobi. However, after training under the Sannin Tsunade, she overcomes this, and becomes recognised as one of the greatest medical-nin in the world.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="char">
+		<div class="char-header">
+			<h1>Characters</h1>
+			<p>Some famouse personalities of Konoha:</p>			
+		</div>
+
+
+		<div class="char-row">
+			<div class="char-col">
+				<img src="img/sasuke.jpg" alt="naruto">
+				<div class="layer">
+					<h3>Sasuke Uchiha</h3>
+				</div>
+			</div>
+			<div class="char-col">
+				<img src="img/naruto.jfif" alt="naruto" class="im">
+				<div class="layer">
+					<h3>Naruto Uzumaki</h3>
+				</div>
+			</div>
+			<div class="char-col">
+				<img src="img/sakura.jpg" alt="naruto">
+				<div class="layer">
+					<h3>Sakura Haruno</h3>
+				</div>
+			</div>
+			<div class="char-col">
+				<img src="img/kakashi.jfif" alt="naruto">
+				<div class="layer">
+					<h3>Kakashi Hatake</h3>
+				</div>
+			</div>
+			<div class="char-col">
+				<img src="img/minato.jpg" alt="naruto">
+				<div class="layer">
+					<h3>Minato Namikaze</h3>
+				</div>
+			</div>
+			<div class="char-col">
+				<img src="img/jiraiya.jfif" alt="naruto">
+				<div class="layer">
+					<h3>Jiraiya</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- JavaScript for Toggle Menu -->
+	<script>
+		
+		var navLinks = document.getElementsByTagName('navLinks');
+
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+
+	</script>
+
+
+</body>
+</html>
